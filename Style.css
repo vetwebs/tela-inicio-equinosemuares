@@ -1,0 +1,219 @@
+:root{
+    --verde-claro: #0dee45;
+    --verde-escuro: #009933;
+    --azulclaro: #00339A;
+    --fundocinza: #d4d3d375;
+    --fontnavegacao: Bebas-Regular;   
+}
+@font-face{
+    font-family: Bebas-Regular ;
+    src: url(Bebas-Regular.ttf)    
+}
+@font-face {
+    font-family: Coolvetica;
+    src: url(coolveticarg.otf);
+}
+@font-face {
+    font-family: Berlin;
+    src: url(BRLNSR.TTF);
+}
+@font-face {
+    font-family: Adobe Regular;
+    src: url(AdobeHeitiStd-Regular.otf);
+}
+/*NAVEGAÇAO CABECALHO*/
+body{
+    background: linear-gradient(#b4b8b28a,#70c568b6)
+}
+header{
+    background-color: var(--fundocinza);  
+    background-image: url(imagemdefundo.png);
+    background-position: 5px;   
+}
+/*H1*/
+.logovetweb{
+    margin-top: 10px;
+    padding-left: 50px;
+}
+.cabecalho__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    box-shadow: 1px 10px 8px #00000056;      
+}
+/* CABEÇALHO NAVEGAÇÃO*/
+.navegacao{
+    display: flex;
+    gap: 40px;
+    margin-right: 100px;
+    
+}
+.inicio,.tutorial,.contato,.loja,.entrar{
+     text-decoration: none;
+    font-size: 25px;
+    font-family: var(--fontnavegacao);
+    color: var(--verde-claro);         
+}
+.inicio:hover,.tutorial:hover,.loja:hover,.contato:hover,.entrar:hover{
+    border: 2px solid rgba(255, 255, 255, 0.151);
+    background-color: rgba(255, 255, 255, 0.205);
+    border-radius: 8px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+/*LOGOS CONTAINER PRINCIPAL*/
+.logos__container{
+    margin-top:0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/*TITULO CONTROLE E GESTAO*/
+.titulo__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.titulocontrolegestao{
+    margin: 16px;
+    font-family: Coolvetica;
+    font-size: 50px;
+    color: rgba(19, 18, 18, 0.808);
+    
+}
+
+/*EDIÇÃO LOGOS POSIÇÃO E TAMANHO*/
+.equinoicone{
+    width:150px;
+
+}
+.fichacontroleicone{
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+}
+.celularicone{
+    width: 212px;
+    height: 212px;
+    margin-top: 182px;
+    margin-left: 100px;
+}
+.fichagestaoicone{
+    width: 250px;
+    height: 250px;
+    margin-right: 100px;
+}
+.muaricone{
+    width: 115px;
+}
+/*CONTEUDO CONTAINER 1 */
+.conteudo__container1{
+    display: flex;
+    justify-content: space-around;
+    font-family: Coolvetica;
+    font-size: 30px;
+    margin-top: -55px;
+    
+}
+/*CONTAINER PRINCIPAL 2*/
+.container__pagina2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+.paragrafos{
+    background: var(--fundocinza);
+   border: 2px solid #0099332f;
+   border-radius: 20px;
+   padding: 50px;
+   box-shadow: 1px 10px 8px #00000056;
+}
+.paragrafo1,.paragrafo2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;    
+}
+.vet{
+    font-family: Berlin;
+    color: #009933;
+}
+.web{
+    font-family: Berlin;
+    color: #00DA63;
+}
+
+.equinocultura{
+    font-weight: bold;
+}
+.tecnlologia{
+    color: #00339A;
+    font-weight: bold;
+}
+
+/*CONTAINER PRINCIPAL 3*/
+.container__pagina3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.conteudo__pagina3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin: 0 0 0 500px;
+    
+}
+.organizacao,.mobilidade,.facilacesso,.seguranca,.eficiencia{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(4, 73, 15);
+    border: 1px solid #a2a8a417;
+    background: linear-gradient(#d4d3d3, #0099332d);
+    border-radius: 10px;
+    padding: 10px;
+}
+.organizacao:hover,.mobilidade:hover,.facilacesso:hover,.seguranca:hover,.eficiencia:hover{
+    color: white;
+    font-size: 25px;
+    transition: 0.2s;
+}
+.logoveterinaria{
+    width: 520px;
+    margin:  0 207px 0 0;
+
+}
+/*************RODAPÉ*************/
+.container__rodape{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: #065f245b;  
+    margin-top: 50px
+}
+.sobre,.sejaparceiro,.politicas,.termos{
+    color: black;
+    padding: 20px;
+    font-family: Adobe Regular;
+    text-decoration: none;
+   
+}
+.sobre:hover,.sejaparceiro:hover,.politicas:hover,.termos:hover{
+    color: white;
+    transition: 0.2s;
+}
+.conteudo__reservados{
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 10px;
+
+}
+
+
+

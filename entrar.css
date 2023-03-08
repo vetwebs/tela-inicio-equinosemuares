@@ -1,0 +1,65 @@
+:root{
+    --verde-claro: #00DA63;
+    --verde-escuro: #009933;
+    --azulclaro: #00339A;
+    --fundocinza: #d4d3d375;
+    --fontnavegacao: Bebas-Regular;
+    --fonttitulonavegacao: Coolvetica;
+    --cornavegacoes: #00993317;
+    
+}
+@font-face{
+    font-family: Bebas-Regular ;
+    src: url(Bebas-Regular.ttf)    
+}
+@font-face {
+    font-family: Coolvetica;
+    src: url(coolveticarg.otf);
+}
+body{
+    background-image: url(imagemdefundoopaciti.png);
+}
+header{
+    background-color: var(--cornavegacoes);   
+   
+}
+*H1*/
+.logovetweb{
+    margin-top: 10px;
+    padding-left: 50px;
+}
+.cabecalhoentrar__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    box-shadow: 1px 1px 8px #00000056;      
+}
+/* CABEÇALHO NAVEGAÇÃO*/
+.navegacao{
+    display: flex;
+    gap: 40px;
+    margin-right: 100px;
+    
+}
+.inicio,.contato{
+     text-decoration: none;
+    font-size: 25px;
+    font-family: var(--fontnavegacao);
+    color: var(--verde-claro);         
+}
+.inicio:hover,.contato:hover{
+    border: 2px solid rgba(255, 255, 255, 0.151);
+    background-color: rgba(255, 255, 255, 0.205);
+    border-radius: 8px;
+    padding: 10px;
+    transition: 0.5s;
+}
+/*LOGIN*/
+
+
+
+
+
+
+/*RODAPÉ*/
+
